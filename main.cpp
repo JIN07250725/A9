@@ -48,6 +48,7 @@ int main() {
     welcome();
     
     int numIntegers;
+    cout << "How many positive integers do you want to process? "; 
     getInput(numIntegers);
     
     if (numIntegers <= 0) {
@@ -165,6 +166,7 @@ FUNCTION main():
     CALL welcome()
     
     DECLARE numIntegers: INT
+    PRINT "How many positive integers do you want to process? "
     CALL getInput(numIntegers)
     
     IF numIntegers <= 0 THEN
